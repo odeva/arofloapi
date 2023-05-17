@@ -1,0 +1,31 @@
+{
+    "name": "odeva/arofloapi",
+    "description": "Aroflo API",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\ArofloApi\\": "src/",
+            "App\\Providers\\ArofloServiceProvider\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guray Sunamak",
+            "email": "guray.sunamak@contactgroup.com.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "App\\ArofloApi\\ArofloApiServiceProvider"
+            ]
+        }
+    }
+}
