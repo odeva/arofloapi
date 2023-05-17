@@ -9,7 +9,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "ArofloApi\\": "src/ArofloApi/"
+            "ContactGroup\\ArofloApi\\": "src/ContactGroup/",
+            "ContactGroup\\ArofloApiServiceProvider\\": "src/ContactGroup/"
         }
     },
     "authors": [
@@ -23,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ArofloApi\\ArofloApiServiceProvider"
+                "ContactGroup\\ArofloApiServiceProvider"
             ]
         }
     }

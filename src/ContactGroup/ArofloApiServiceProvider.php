@@ -1,9 +1,9 @@
 <?php
 
-namespace ArofloApi;
+namespace ContactGroup;
 
 use Illuminate\Support\ServiceProvider;
-use ArofloApi\ArofloApi;
+use ContactGroup\ArofloApi;
 
 class ArofloApiServiceProvider extends ServiceProvider
 {
@@ -22,6 +22,7 @@ class ArofloApiServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/../config/aroflo.php' => config_path('aroflo.php'),
+            ['arofloapi']
         ]);
     }
 }
