@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use App\ArofloApi;
 
 class ArofloApiServiceProvider extends ServiceProvider
 {
@@ -11,7 +12,7 @@ class ArofloApiServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $this->app->singleton('ArofloApi', ArofloApi::class);
     }
 
     /**
