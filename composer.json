@@ -9,8 +9,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "ContactGroup\\ArofloApi\\": "src/ContactGroup/",
-            "ContactGroup\\ArofloApiServiceProvider\\": "src/ContactGroup/"
+            "ContactGroup\\": "src/ContactGroup/"
         }
     },
     "authors": [
