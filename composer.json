@@ -9,8 +9,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "ArofloApi\\ArofloApi\\": "src/",
-            "ArofloApi\\ArofloServiceProvider\\": "src/"
+            "ArofloApi\\": "src/ArofloApi/"
         }
     },
     "authors": [
